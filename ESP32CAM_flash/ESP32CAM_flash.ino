@@ -8,7 +8,7 @@
 //hecho de que cuentas con la base programadora.
 
 //Definición de pines
-#define LAMP 4 //Se selecciona 
+#define LAMP 5 //Se selecciona 
 
 //Inicialización del programa
 void setup() //Estructura principal
@@ -24,3 +24,4 @@ void loop() //Función bucle
   digitalWrite (FLASH, LOW); //Apagar led
   delay (2000); //Espera de 2 segundos
 } //Fin de void loop()
+//Esta linea solo se agrega con la finalidad de verificar la funcionalidad de GitHub DESKTOP
